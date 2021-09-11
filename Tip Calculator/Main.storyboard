@@ -61,6 +61,12 @@
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                                <connections>
+                                    <action selector="UpdateTip:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="p3E-wv-Q5l"/>
+                                    <action selector="calculateTip:" destination="BYZ-38-t0r" eventType="editingDidEnd" id="uLu-r8-euf"/>
+                                    <action selector="updateBill:" destination="BYZ-38-t0r" eventType="editingChanged" id="J4M-1y-Fa4"/>
+                                    <action selector="updateBill:" destination="BYZ-38-t0r" eventType="valueChanged" id="Sd8-Lb-ck0"/>
+                                </connections>
                             </textField>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="$0.00" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="94o-pw-kng" userLabel="Tip Amount Label">
                                 <rect key="frame" x="-20" y="163" width="414" height="21"/>

@@ -11,10 +11,8 @@ class ViewController: UIViewController {
 
 
     @IBOutlet weak var billAmountTextField: UITextField!
-    
     @IBOutlet weak var tipAmountLabel: UILabel!
     @IBOutlet weak var tipControl: UISegmentedControl!
-    
     @IBOutlet weak var totalLabel: UILabel!
     
     
@@ -23,6 +21,10 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
     }
 
+    
+    @IBAction func updateBill(_ sender: UITextField) {
+        calculateTip(UITextField())
+    }
     @IBAction func calculateTip(_ sender: Any) {
         // Get bill amount from text field input
         let bill = Double(billAmountTextField.text!) ?? 0
