@@ -28,7 +28,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-![](https://i.imgur.com/oD7YEpY.gif)
+![](https://i.imgur.com/o0vNWPx.gif)
 
 
 GIF created with [ezgif](https://ezgif.com/video-to-gif).
@@ -36,7 +36,7 @@ GIF created with [ezgif](https://ezgif.com/video-to-gif).
 
 ## Notes
 
-I experienced very little difficulty. My only obstacle was figuring out how to give users enough space to calculate large numbers using the calculator. 
+I experienced very little difficulty. I had a difficult time figuring out how to give users enough space to calculate large numbers using the calculator and also how to make the calculator update as you're typing. 
 
 ## License
 
